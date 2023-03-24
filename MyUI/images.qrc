@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="background">
+    <file>res/暂停.png</file>
+    <file>res/推出.png</file>
+    <file>button-on.png</file>
+    <file>打开.png</file>
+    <file>摄像头开.png</file>
+    <file>实时视频流解析.png</file>
+    <file>兰博.jpg</file>
+    <file>background.jpg</file>
+  </qresource>
+</RCC>

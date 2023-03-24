@@ -1,0 +1,17 @@
+<RCC>
+  <qresource prefix="res">
+    <file>运行.png</file>
+    <file>暂停.png</file>
+    <file>Flow-算子-yolov3.png</file>
+    <file>yolo.png</file>
+    <file>缩小.png</file>
+    <file>推出.png</file>
+    <file>background.jpg</file>
+    <file>button-on.png</file>
+    <file>打开.png</file>
+    <file>兰博.jpg</file>
+    <file>摄像头开.png</file>
+    <file>实时视频流解析.png</file>
+    <file>推出.png</file>
+  </qresource>
+</RCC>
