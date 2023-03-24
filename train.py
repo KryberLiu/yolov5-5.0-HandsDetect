@@ -461,7 +461,7 @@ if __name__ == '__main__':
     parser.add_argument('--weights', type=str, default='yolov5s.pt', help='initial weights path')#可以用于指定一个训练好的模型路径，用这个模型初始化模型中一些参数（首先需要提前下载或运行程序时会自动下载）default 默认为空，意义是用程序的参数权重进行初始化，而不用已经训练好的模型进行初始化。
     #可以用于指定一个训练好的模型路径，用这个模型初始化模型中一些参数（首先需要提前下载或运行程序时会自动下载）default默认为空，意义是用程序的参数权重进行初始化，而不用已经训练好的模型进行初始化。
     parser.add_argument('--cfg', type=str, default='', help='model.yaml path')#cfg 为 configuration（设置）的缩写，用于进行模型的配置。default 用于选择 model 文件。
-    parser.add_argument('--data', type=str, default='data/coco128.yaml', help='data.yaml path')#采用的数据集是coco128
+    parser.add_argument('--data', type=str, default='data/myyolodata.yaml', help='data.yaml path')#采用的数据集是自定义数据集myyolodata
     parser.add_argument('--hyp', type=str, default='data/hyp.scratch.yaml', help='hyperparameters path')
     parser.add_argument('--epochs', type=int, default=300)#训练多少轮
     parser.add_argument('--batch-size', type=int, default=16, help='total batch size for all GPUs')#用于设置一次跑多少的数据输入到网络当中。不设置时默认为16。
